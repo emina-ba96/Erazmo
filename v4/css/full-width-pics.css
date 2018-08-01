@@ -1,0 +1,155 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+
+body {
+ background-color: #ecf2f9;
+}
+@media (min-width: 992px) {
+  body {
+  }
+}
+.Slide {display: none;}
+img{ 
+	vertical-align: middle;
+	height:400px;
+	
+}
+.lead1, .lead2
+{
+	font-family: Arial;
+	font-size:30px !important; 
+}
+.container p
+{
+	font-size: 20px;
+	font-family: arial;
+}
+.navbar-brand
+{
+	font-family: Arial;
+	display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+	margin: auto;
+}
+.nav-item
+{
+	text-align: center;
+	font-size: 25px;
+	font-family: Arial;
+
+}
+.slideshow-container
+{
+	width:80%;
+	position: relative;
+	margin: auto;
+	border: 2px gray solid;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: black;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.s2{
+background-color:#dae6f1;}
+.s1, .s2 {
+	border-top: 2px #dae6f1 solid; 
+	text-align: center;
+	padding-top:100px;
+	padding-bottom: 0px;
+}
+.s3 {
+
+	text-align:center;
+	padding-top: 100px !important;
+	padding-bottom: 100px;
+}
+adress
+{
+color:white; font-size:20px}
+.footer
+{
+	background-color: #2d5986;
+}
+.row{ 
+padding:30px;}
+.slika{
+	width: 100%;
+	margin: auto;
+	border: 3px #2d5986 solid;
+	}{
+/* sidenav*/
+.sidenav {
+	display: none;
+    height: 0%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.sidenav a {
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-right: 50px;
+}
+.row
+{
+	border-top: 2px #2d5986 solid;
+}
+
+	
+
+
+
+
+
+
+
